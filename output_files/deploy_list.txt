@@ -1,0 +1,2 @@
+vn.live.k8s/api-server
+vn.live.k8s/nowpromotion-service-api
