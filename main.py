@@ -8,11 +8,11 @@ if __name__ == '__main__':
     list_of_records = read_google_sheet(secret_key_file='input_files/secret.json')
     print(list_of_records)
 
-    # parse data
+    # # parse data
     apps = preprocess_data(list_of_records)
     print(apps)
 
-    # topology sort
+    # # topology sort
     result, jobs_order = topological_sort(apps)
     print(jobs_order)
 
